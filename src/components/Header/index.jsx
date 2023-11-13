@@ -76,7 +76,12 @@ function Header() {
                   </div>
                 </div>
               </div>
+              <div className="advanced">
+                <i class="fa-solid fa-chevron-down"></i>
+                <p>Advanced Search</p>
+              </div>
             </div>
+
             <div
               id="jarallax-container-0"
               style={{
@@ -89,34 +94,14 @@ function Header() {
                 zIndex: -100,
               }}
             >
-              <div
-                style={{
-                  backgroundPosition: "50% 50%",
-                  backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat",
-                  backgroundImage: 'url("https://img.youtube.com/vi/JPe2mwq96cw/maxresdefault.jpg")',
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: 1349,
-                  height: "800px",
-                  overflow: "hidden",
-                  pointerEvents: "none",
-                  transformStyle: "preserve-3d",
-                  backfaceVisibility: "hidden",
-                  willChange: "transform, opacity",
-                  marginTop: "-145.25px",
-                  transform: "translate3d(0px, 145.25px, 0px)",
-                  display: "block",
-                }}
-              />
+              <video playsInline autoPlay muted loop style={{ position: "absolute", width: 1349, height: "800px" }}>
+                <source src="polina.webm" type="video/webm" />
+                <source
+                  src="https://res.cloudinary.com/dn4nxz7f0/video/upload/v1594348575/Pexels_Videos_1093655_pr26ax.mp4"
+                  type="video/mp4"
+                />
+              </video>
             </div>
-          </div>
-          <div className="tour_advance_search_wrapper_link">
-            <i class="fa-solid fa-chevron-down"></i>
-            <a id="tour_advance_search_toggle" href="javascript:;" style={{ color: "#ffffff" }}>
-              Advanced Search
-            </a>
           </div>
         </div>
       </div>

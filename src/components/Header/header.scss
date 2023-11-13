@@ -35,7 +35,7 @@ hr{
 i.fa-solid.fa-chevron-down {
   font-size: 10px;
   color: #ffffff;
-  margin-right: 18px;
+  margin-right: 13px;
 }
 
 i.fa-solid.fa-cart-shopping{
@@ -49,6 +49,7 @@ i.fa-solid.fa-cart-shopping{
   font-size: 13px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  margin-left: 8px;
 }
 
 .navbar-toggler-icon{
@@ -328,7 +329,6 @@ h2.ppb_title {
   padding-left: 24px;
 }
 
-
 .btn-close{
   border-radius: 50% !important;
   background-color: red !important;
@@ -336,4 +336,28 @@ h2.ppb_title {
   font-size: 12px;
 }
 
+video {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
 
+.advanced{
+  display: flex;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+
+.advanced i{
+  line-height: 21px;
+}
+
+.advanced p{
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 6px;
+}
