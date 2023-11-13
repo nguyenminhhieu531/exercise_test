@@ -198,11 +198,11 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container">
-          <div className="row">
+          <div className="row mobile_footer">
             <div className="col-md-6 col-xs-12">
               <div id="copyright">© Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
             </div>
-            <div className="col-md-6 col-xs-6">
+            <div className="col-md-6 col-xs-12">
               <div className="menu-footer-menu-container">
                 <ul id="footer_menu" className="footer_nav">
                   <li
