@@ -1,6 +1,5 @@
 import "./footer.scss";
 import "./responsive_footer.scss";
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"></link>;
 
 function Footer() {
   return (
@@ -203,7 +202,7 @@ function Footer() {
             <div className="col-md-6 col-xs-12">
               <div id="copyright">© Copyright Grand Tour Theme Demo - Theme by ThemeGoods</div>
             </div>
-            <div className="col-md-6 col-xs-12">
+            <div className="col-md-6 col-xs-6">
               <div className="menu-footer-menu-container">
                 <ul id="footer_menu" className="footer_nav">
                   <li
@@ -236,9 +235,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
     </>
   );
 }
