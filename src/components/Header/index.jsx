@@ -8,10 +8,10 @@ function Header() {
     <div id="header">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-xs-3">
+          <div className="col-md-2 col-xs-3">
             <HeaderLogo></HeaderLogo>
           </div>
-          <div className="col-md-9 col-xs-9">
+          <div className="col-md-10 col-xs-9">
             <HeaderNav></HeaderNav>
           </div>
         </div>

@@ -5,6 +5,10 @@
   margin-bottom: 8px;
 }
 
+.offcanvas-body {
+  overflow-y: unset !important;
+}
+
 #header{
   position: relative;
   height: 650px;

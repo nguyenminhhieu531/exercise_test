@@ -5,7 +5,7 @@ function HeaderNav(props) {
     <nav className="navbar">
       <div className="container">
         <ul id="nav">
-          <li className="hidden_pc">
+          <li className="hidden_mobile">
             <a href="#">Home</a>
             <ul className="subnav">
               <li>
@@ -25,8 +25,8 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#band">Tours</a>
             <ul className="subnav">
               <li>
@@ -46,8 +46,8 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#tour">Booking</a>
             <ul className="subnav">
               <li>
@@ -67,16 +67,16 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#">Destinations</a>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#band">Pages</a>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#tour">Blog</a>
             <ul className="subnav">
               <li>
@@ -96,8 +96,8 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#contact">Shortcodes</a>
             <ul className="subnav">
               <li>
@@ -117,13 +117,13 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_pc"></i>
-          <li className="hidden_pc">
+          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+          <li className="hidden_mobile">
             <a href="#">
-              Shop <i class="fa-solid fa-chevron-down hidden_pc"></i>
+              Shop <i class="fa-solid fa-chevron-down hidden_mobile "></i>
             </a>
           </li>
-          <li>
+          <li className="show_mobile">
             <button
               className="navbar-toggler"
               type="button"
@@ -134,7 +134,7 @@ function HeaderNav(props) {
               <span className="navbar-toggler-icon" />
             </button>
           </li>
-          <li>
+          <li className="show_mobile">
             <div className="header_cart_wrapper">
               <a href="https://themes.themegoods.com/grandtour/demo/cart/" title="View Cart">
                 <i class="fa-solid fa-cart-shopping"></i>
