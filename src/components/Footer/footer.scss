@@ -1,0 +1,140 @@
+
+.row{
+  margin-bottom: 8px;
+}
+
+.col-md-4, .col-xs-4{
+  padding-right: 3px !important;
+  padding-left: 3px !important;
+}
+
+.col-md-6, .col-xs-12{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.col-md-6 {
+  line-height: 106px !important;
+  height: 80px !important;
+}
+
+ul li{
+  list-style: none;
+}
+
+#grandtour_flickr-7 img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+#footer{
+  background-color: #000000;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50px;
+  word-wrap: break-word;
+  margin-bottom: 0;
+  padding-top: 50px;
+  float: left;
+  clear: both;
+  border-bottom: 1px solid #595757;
+}
+
+.footer-bottom{
+  background-color: #000000;
+}
+
+.widgettitle{
+  margin-top: 10px;
+  margin-bottom: 18px;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Poppins';
+}
+
+.textwidget p{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Work Sans';
+  vertical-align: baseline;
+  color: #fff;
+  line-height: 25.5px;
+  margin-bottom: 10px;
+}
+.social_wrapper ul{
+  display: flex;
+}
+
+.social_wrapper ul li{
+  margin: 0 10px 10px 5px !important;
+}
+
+.social_wrapper a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: #fff!important;
+  background: #000;
+  border-radius: 250px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.social_wrapper .facebook > a{
+  background: #2D5F9A;
+}
+
+.social_wrapper .twitter > a{
+  background: #00C3F3;
+}
+
+
+.social_wrapper .youtube > a{
+  background: #cc181e;
+}
+
+
+.social_wrapper .pinterest > a{
+  background: #bd081c;
+}
+
+.social_wrapper .instagram > a{
+  background: #405de6;
+}
+
+#footer_menu{
+  display: flex;
+}
+
+#footer_menu li{
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+#footer_menu li a{
+  text-decoration: none;
+  color: #cccccc;
+  font-size: 12px;
+}
+
+.menu-footer-menu-container{
+  float: right;
+}
+
+#copyright {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: #cccccc;
+}
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+/* Mobile */
+@media (max-width:46.1875em) {  
+  .hidden_pc{
+    display: none !important;
+  }
+
+  #nav{
+        right: 0;
+        position: absolute;
+        top: -192%;
+  }
+
+  #option_btn{
+    display: none;
+  }
+}
