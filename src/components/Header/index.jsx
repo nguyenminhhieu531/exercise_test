@@ -7,7 +7,7 @@ function Header() {
   return (
     <div id="header">
       <div className="container">
-        <div className="row">
+        <div className="row" style={{ lineHeight: "74px" }}>
           <div className="col-md-2 col-xs-3">
             <HeaderLogo></HeaderLogo>
           </div>

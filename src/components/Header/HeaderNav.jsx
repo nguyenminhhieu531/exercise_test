@@ -4,124 +4,183 @@ function HeaderNav(props) {
   return (
     <nav className="navbar">
       <div className="container">
-        <ul id="nav">
+        <ul className="nav" id="nav">
           <li className="hidden_mobile">
             <a href="#">Home</a>
-            <ul className="subnav">
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
               <li>
                 <a href="#">Home 1 - Background Image</a>
               </li>
-              <hr></hr>
               <li>
                 <a href="#">Home 2 - Youtube Video</a>
               </li>
-              <hr></hr>
               <li>
                 <a href="#">Home 3 - Google Inspired</a>
               </li>
-              <hr></hr>
               <li>
                 <a href="#">Home 4 - Travel Site</a>
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
           <li className="hidden_mobile">
-            <a href="#band">Tours</a>
-            <ul className="subnav">
+            <a href="#">Tours</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
               <li>
-                <a href="#">Home 1 - Background Image</a>
+                <a href="#">Tour Classic Fullwidth</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <ul className="sub-menu">
+                  <li>
+                    <a href="#">2 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">3 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">4 Columns</a>
+                  </li>
+                </ul>
               </li>
-              <hr></hr>
-              <li>
-                <a href="#">Home 2 - Youtube Video</a>
+              <li className="hidden_mobile">
+                <a href="#">Tour Classic Fullwidth</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <ul className="sub-menu">
+                  <li>
+                    <a href="#">2 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">3 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">4 Columns</a>
+                  </li>
+                </ul>
               </li>
-              <hr></hr>
-              <li>
-                <a href="#">Home 3 - Google Inspired</a>
+              <li className="hidden_mobile">
+                <a href="#">Tour Classic Fullwidth</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <ul className="sub-menu">
+                  <li>
+                    <a href="#">2 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">3 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">4 Columns</a>
+                  </li>
+                </ul>
               </li>
-              <hr></hr>
-              <li>
-                <a href="#">Home 4 - Travel Site</a>
+              <li className="hidden_mobile">
+                <a href="#">Tour Classic Fullwidth</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <ul className="sub-menu">
+                  <li>
+                    <a href="#">2 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">3 Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">4 Columns</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
           <li className="hidden_mobile">
-            <a href="#tour">Booking</a>
-            <ul className="subnav">
+            <a href="#">Booking</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
               <li>
-                <a href="#">Home 1 - Background Image</a>
+                <a href="#">Booking online</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 2 - Youtube Video</a>
+                <a href="#">Booking online</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 3 - Google Inspired</a>
+                <a href="#">Booking online</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 4 - Travel Site</a>
+                <a href="#">Booking online</a>
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
           <li className="hidden_mobile">
             <a href="#">Destinations</a>
-          </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
-          <li className="hidden_mobile">
-            <a href="#band">Pages</a>
-          </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
-          <li className="hidden_mobile">
-            <a href="#tour">Blog</a>
-            <ul className="subnav">
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
               <li>
-                <a href="#">Home 1 - Background Image</a>
+                <a href="#">2 Columns</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 2 - Youtube Video</a>
+                <a href="#">3 Columns</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 3 - Google Inspired</a>
-              </li>
-              <hr></hr>
-              <li>
-                <a href="#">Home 4 - Travel Site</a>
+                <a href="#">4 Columns</a>
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
           <li className="hidden_mobile">
-            <a href="#contact">Shortcodes</a>
-            <ul className="subnav">
+            <a href="#">Pages</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
               <li>
-                <a href="#">Home 1 - Background Image</a>
+                <a href="#">2 Columns</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 2 - Youtube Video</a>
+                <a href="#">3 Columns</a>
               </li>
-              <hr></hr>
               <li>
-                <a href="#">Home 3 - Google Inspired</a>
-              </li>
-              <hr></hr>
-              <li>
-                <a href="#">Home 4 - Travel Site</a>
+                <a href="#">4 Columns</a>
               </li>
             </ul>
           </li>
-          <i class="fa-solid fa-chevron-down hidden_mobile "></i>
           <li className="hidden_mobile">
-            <a href="#">
-              Shop <i class="fa-solid fa-chevron-down hidden_mobile "></i>
-            </a>
+            <a href="#">Blog</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
+              <li>
+                <a href="#">2 Columns</a>
+              </li>
+              <li>
+                <a href="#">3 Columns</a>
+              </li>
+              <li>
+                <a href="#">4 Columns</a>
+              </li>
+            </ul>
+          </li>
+          <li className="hidden_mobile">
+            <a href="#">Shortcodes</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
+              <li>
+                <a href="#">2 Columns</a>
+              </li>
+              <li>
+                <a href="#">3 Columns</a>
+              </li>
+              <li>
+                <a href="#">4 Columns</a>
+              </li>
+            </ul>
+          </li>
+          <li className="hidden_mobile">
+            <a href="#">Shop</a>
+            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <ul className="sub-menu">
+              <li>
+                <a href="#">2 Columns</a>
+              </li>
+              <li>
+                <a href="#">3 Columns</a>
+              </li>
+              <li>
+                <a href="#">4 Columns</a>
+              </li>
+            </ul>
           </li>
           <li className="show_mobile">
             <button
@@ -131,7 +190,7 @@ function HeaderNav(props) {
               data-bs-target="#offcanvasNavbar"
               aria-controls="offcanvasNavbar"
             >
-              <span className="navbar-toggler-icon" />
+              <i className="fa-solid fa-bars"></i>
             </button>
           </li>
           <li className="show_mobile">
@@ -141,8 +200,28 @@ function HeaderNav(props) {
               </a>
             </div>
           </li>
+          <li
+            className="count_cart"
+            style={{
+              position: "absolute",
+              right: "71px",
+              top: "32%",
+              marginLeft: "-10px",
+              lineHeight: "8px",
+            }}
+          >
+            <p
+              style={{
+                color: "#ffffff",
+                backgroundColor: "red",
+                borderRadius: "50%",
+                padding: "3px",
+              }}
+            >
+              0
+            </p>
+          </li>
         </ul>
-
         <div
           className="offcanvas offcanvas-end"
           tabIndex={-1}
