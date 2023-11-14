@@ -18,7 +18,19 @@
     display: none;
   }
 
+  .subnav_final{
+    float: right;
+    position: absolute;
+    right: 10px;
+    line-height: 74px;
+    top: -71px;
+  }
+
   .count_cart{
     right: 0px !important;
+    position: absolute;
+    right: -6px;
+    top: 22%;
+    margin-right: -7px;
   }
 }

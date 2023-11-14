@@ -4,10 +4,10 @@ function HeaderNav(props) {
   return (
     <nav className="navbar">
       <div className="container">
-        <ul className="nav" id="nav">
-          <li className="hidden_mobile">
+        <ul className="nav hidden_mobile" id="nav">
+          <li>
             <a href="#">Home</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">Home 1 - Background Image</a>
@@ -23,9 +23,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Tours</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">Tour Classic Fullwidth</a>
@@ -42,7 +42,7 @@ function HeaderNav(props) {
                   </li>
                 </ul>
               </li>
-              <li className="hidden_mobile">
+              <li>
                 <a href="#">Tour Classic Fullwidth</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <ul className="sub-menu">
@@ -57,7 +57,7 @@ function HeaderNav(props) {
                   </li>
                 </ul>
               </li>
-              <li className="hidden_mobile">
+              <li>
                 <a href="#">Tour Classic Fullwidth</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <ul className="sub-menu">
@@ -72,7 +72,7 @@ function HeaderNav(props) {
                   </li>
                 </ul>
               </li>
-              <li className="hidden_mobile">
+              <li>
                 <a href="#">Tour Classic Fullwidth</a>
                 <i class="fa-solid fa-chevron-right"></i>
                 <ul className="sub-menu">
@@ -89,9 +89,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Booking</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">Booking online</a>
@@ -107,9 +107,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Destinations</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">2 Columns</a>
@@ -122,9 +122,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Pages</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">2 Columns</a>
@@ -137,9 +137,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Blog</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">2 Columns</a>
@@ -152,9 +152,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Shortcodes</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">2 Columns</a>
@@ -167,9 +167,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="hidden_mobile">
+          <li>
             <a href="#">Shop</a>
-            <i class="fa-solid fa-chevron-down hidden_mobile "></i>
+            <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
                 <a href="#">2 Columns</a>
@@ -182,7 +182,9 @@ function HeaderNav(props) {
               </li>
             </ul>
           </li>
-          <li className="show_mobile">
+        </ul>
+        <ul className="subnav_final">
+          <li>
             <button
               className="navbar-toggler"
               type="button"
@@ -193,7 +195,7 @@ function HeaderNav(props) {
               <i className="fa-solid fa-bars"></i>
             </button>
           </li>
-          <li className="show_mobile">
+          <li>
             <div className="header_cart_wrapper">
               <a href="https://themes.themegoods.com/grandtour/demo/cart/" title="View Cart">
                 <i class="fa-solid fa-cart-shopping"></i>

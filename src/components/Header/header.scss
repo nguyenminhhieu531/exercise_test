@@ -40,6 +40,7 @@ i.fa-solid.fa-chevron-down {
 
 i.fa-solid.fa-cart-shopping{
   color: #ffffff;
+  font-size: 12px;
 }
 .tour_advance_search_wrapper_link{
   margin-top: -46px !important;
@@ -269,8 +270,14 @@ video {
   box-shadow: 0 0 0 0;
 }
 
-.nav{
-  // line-height: 74px;
+#nav{
+  line-height: 74px;
+}
+
+.subnav_final{
+  display: flex;
+  margin-left: -105px;
+  margin-bottom: -1px;
 }
 
 .nav>li{
@@ -350,6 +357,8 @@ video {
 
 .count_cart{
   position: absolute;
-  margin-left: -5px;
+  right: 73px;
+  top: 19%;
+  margin-left: -10px;
   line-height: 8px;
 }
