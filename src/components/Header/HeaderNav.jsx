@@ -112,13 +112,13 @@ function HeaderNav(props) {
             <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
-                <a href="#">2 Columns</a>
+                <a href="#">Destination Fullwidth</a>
               </li>
               <li>
-                <a href="#">3 Columns</a>
+                <a href="#">Destination Fullwidth</a>
               </li>
               <li>
-                <a href="#">4 Columns</a>
+                <a href="#">Destination Fullwidth</a>
               </li>
             </ul>
           </li>
@@ -127,13 +127,13 @@ function HeaderNav(props) {
             <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
-                <a href="#">2 Columns</a>
+                <a href="#">About Us</a>
               </li>
               <li>
-                <a href="#">3 Columns</a>
+                <a href="#">About Us</a>
               </li>
               <li>
-                <a href="#">4 Columns</a>
+                <a href="#">About Us</a>
               </li>
             </ul>
           </li>
@@ -142,13 +142,13 @@ function HeaderNav(props) {
             <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
-                <a href="#">2 Columns</a>
+                <a href="#">Blog Right Sidebar</a>
               </li>
               <li>
-                <a href="#">3 Columns</a>
+                <a href="#">Blog Right Sidebar</a>
               </li>
               <li>
-                <a href="#">4 Columns</a>
+                <a href="#">Blog Right Sidebar</a>
               </li>
             </ul>
           </li>
@@ -157,13 +157,13 @@ function HeaderNav(props) {
             <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
-                <a href="#">2 Columns</a>
+                <a href="#">Accordion & Toggles</a>
               </li>
               <li>
-                <a href="#">3 Columns</a>
+                <a href="#">Accordion & Toggles</a>
               </li>
               <li>
-                <a href="#">4 Columns</a>
+                <a href="#">Accordion & Toggles</a>
               </li>
             </ul>
           </li>
@@ -172,13 +172,22 @@ function HeaderNav(props) {
             <i class="fa-solid fa-chevron-down  "></i>
             <ul className="sub-menu">
               <li>
-                <a href="#">2 Columns</a>
+                <a href="#">Shop Fullwidth</a>
               </li>
               <li>
-                <a href="#">3 Columns</a>
+                <a href="#">Shop Fullwidth</a>
               </li>
               <li>
-                <a href="#">4 Columns</a>
+                <a href="#">Shop Fullwidth</a>
+              </li>
+              <li>
+                <a href="#">Shop Fullwidth</a>
+              </li>
+              <li>
+                <a href="#">Shop Fullwidth</a>
+              </li>
+              <li>
+                <a href="#">Shop Fullwidth</a>
               </li>
             </ul>
           </li>
@@ -234,7 +243,7 @@ function HeaderNav(props) {
             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
           </div>
           <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3" style={{ paddingLeft: "28px" }}>
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
@@ -274,6 +283,45 @@ function HeaderNav(props) {
                 <a className="nav-link active" aria-current="page" href="#">
                   Shop
                 </a>
+              </li>
+              <br></br>
+              <li className="nav-item">
+                <div
+                  className="image_popular nav-link"
+                  style={{
+                    position: "relative",
+                    borderTopLeftRadius: 8,
+                    borderTopRightRadius: 8,
+                    height: 300,
+                    backgroundImage:
+                      'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-131729.jpeg")',
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
+                  <div className="portfolio_info_content_best_value">
+                    <h3>$5,000</h3>
+                  </div>
+                </div>
+              </li>
+              <li className="nav-item" style={{ marginTop: "8px" }}>
+                <div
+                  className="image_popular nav-link"
+                  style={{
+                    position: "relative",
+                    borderTopLeftRadius: 8,
+                    borderTopRightRadius: 8,
+                    height: 300,
+                    backgroundImage:
+                      'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630-700x466.jpeg")',
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
+                  <div className="portfolio_info_content_best_value">
+                    <h3>$5,000</h3>
+                  </div>
+                </div>
               </li>
               <li>
                 <div style={{ marginTop: 20 }}>

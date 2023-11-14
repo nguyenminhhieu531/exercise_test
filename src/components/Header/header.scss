@@ -17,7 +17,6 @@ hr{
 
 #header{
   position: relative;
-  height: 650px;
   .logo_align{
     display: flex;
     justify-content: space-between;
@@ -372,4 +371,9 @@ video {
 
 .mystyle{
   display: block !important;
+}
+
+#offcanvasNavbar{
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

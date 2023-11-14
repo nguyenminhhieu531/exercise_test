@@ -83,7 +83,7 @@ function Header() {
                     <div className="col-md-3 col-xs-12">
                       <div className="one_fourth themeborder">
                         <select className="month" name="month">
-                          <option value="">Any Month</option>
+                          <option value="">All Categories</option>
                           <option value="january">January</option>
                           <option value="february">February</option>
                           <option value="march">March</option>
@@ -97,13 +97,13 @@ function Header() {
                           <option value="november">November</option>
                           <option value="december">December</option>
                         </select>
-                        <i className="fa-regular fa-calendar"></i>
+                        <i class="fa-solid fa-chevron-down" style={{ color: "#ada5a5" }}></i>
                       </div>
                     </div>
                     <div className="col-md-3 col-xs-12">
                       <div className="one_fourth themeborder">
                         <select className="month" name="month">
-                          <option value="">Any Month</option>
+                          <option value="">Any Destinations</option>
                           <option value="january">January</option>
                           <option value="february">February</option>
                           <option value="march">March</option>
@@ -117,27 +117,13 @@ function Header() {
                           <option value="november">November</option>
                           <option value="december">December</option>
                         </select>
-                        <i className="fa-regular fa-calendar"></i>
+                        <i class="fa-solid fa-chevron-down" style={{ color: "#ada5a5" }}></i>
                       </div>
                     </div>
                     <div className="col-md-3 col-xs-12">
                       <div className="one_fourth themeborder">
-                        <select className="month" name="month">
-                          <option value="">Any Month</option>
-                          <option value="january">January</option>
-                          <option value="february">February</option>
-                          <option value="march">March</option>
-                          <option value="april">April</option>
-                          <option value="may">May</option>
-                          <option value="june">June</option>
-                          <option value="july">July</option>
-                          <option value="august">August</option>
-                          <option value="september">September</option>
-                          <option value="october">October</option>
-                          <option value="november">November</option>
-                          <option value="december">December</option>
-                        </select>
-                        <i className="fa-regular fa-calendar"></i>
+                        <input type="search" placeholder="Max budget ex.500" />
+                        <i class="fa-solid fa-dollar-sign" style={{ color: "#ada5a5", fontSize: "14px" }}></i>
                       </div>
                     </div>
                   </div>
