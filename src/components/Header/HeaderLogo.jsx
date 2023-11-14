@@ -13,8 +13,6 @@ function HeaderLogo() {
         alt
         width={92}
         height={22}
-        data-lazy-src="https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/themes/grandtour/images/logo@2x_white.png"
-        data-ll-status="loaded"
         className="entered lazyloaded"
       />
     </a>
