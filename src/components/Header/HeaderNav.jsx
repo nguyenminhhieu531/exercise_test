@@ -242,7 +242,10 @@ function HeaderNav(props) {
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
         </div>
         <div className="offcanvas-body">
-          <ul className="navbar-nav justify-content-end flex-grow-1 pe-3" style={{ paddingLeft: "28px" }}>
+          <ul
+            className="navbar-nav justify-content-end flex-grow-1 pe-3"
+            style={{ marginLeft: "8px", marginRight: "8px" }}
+          >
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
@@ -301,7 +304,7 @@ function HeaderNav(props) {
               >
                 <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
                 <div className="portfolio_info_content_best_value">
-                  <h3>$5,000</h3>
+                  <h3>$3,900</h3>
                 </div>
               </div>
             </li>
@@ -319,7 +322,7 @@ function HeaderNav(props) {
               >
                 <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
                 <div className="portfolio_info_content_best_value">
-                  <h3>$5,000</h3>
+                  <h3>$4,200</h3>
                 </div>
               </div>
             </li>
