@@ -1,6 +1,12 @@
 import React from "react";
 
-function HeaderBody(props) {
+function HeaderBody() {
+  function handleClickP() {
+    var element = document.getElementById("click_advanced");
+    console.log(element);
+    element.classList.toggle("mystyle");
+  }
+
   return (
     <div className="one withsmallpadding ppb_tour_search_youtube parallax withbg ">
       <div className="center_wrapper">

@@ -5,11 +5,6 @@ import "./header.scss";
 import "./responsive_header.scss";
 
 function Header() {
-  function handleClickP() {
-    var element = document.getElementById("click_advanced");
-    console.log(element);
-    element.classList.toggle("mystyle");
-  }
   return (
     <div id="header">
       <div className="container">
