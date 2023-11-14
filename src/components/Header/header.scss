@@ -249,8 +249,11 @@ video {
 
 .advanced{
   display: flex;
-  margin-top: -15px;
   margin-left: 13px;
+}
+
+#advanced_search{
+  cursor: pointer;
 }
 
 .advanced i{
@@ -361,4 +364,12 @@ video {
   top: 19%;
   margin-left: -10px;
   line-height: 8px;
+}
+
+#click_advanced{
+  display: none;
+}
+
+.mystyle{
+  display: block !important;
 }

@@ -4,6 +4,11 @@ import "./header.scss";
 import "./responsive_header.scss";
 
 function Header() {
+  function handleClickP() {
+    var element = document.getElementById("click_advanced");
+    console.log(element);
+    element.classList.toggle("mystyle");
+  }
   return (
     <div id="header">
       <div className="container">
@@ -74,11 +79,75 @@ function Header() {
                       </div>
                     </div>
                   </div>
+                  <div className="row" id="click_advanced">
+                    <div className="col-md-3 col-xs-12">
+                      <div className="one_fourth themeborder">
+                        <select className="month" name="month">
+                          <option value="">Any Month</option>
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                        </select>
+                        <i className="fa-regular fa-calendar"></i>
+                      </div>
+                    </div>
+                    <div className="col-md-3 col-xs-12">
+                      <div className="one_fourth themeborder">
+                        <select className="month" name="month">
+                          <option value="">Any Month</option>
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                        </select>
+                        <i className="fa-regular fa-calendar"></i>
+                      </div>
+                    </div>
+                    <div className="col-md-3 col-xs-12">
+                      <div className="one_fourth themeborder">
+                        <select className="month" name="month">
+                          <option value="">Any Month</option>
+                          <option value="january">January</option>
+                          <option value="february">February</option>
+                          <option value="march">March</option>
+                          <option value="april">April</option>
+                          <option value="may">May</option>
+                          <option value="june">June</option>
+                          <option value="july">July</option>
+                          <option value="august">August</option>
+                          <option value="september">September</option>
+                          <option value="october">October</option>
+                          <option value="november">November</option>
+                          <option value="december">December</option>
+                        </select>
+                        <i className="fa-regular fa-calendar"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="advanced">
                 <i class="fa-solid fa-chevron-down"></i>
-                <p>Advanced Search</p>
+                <p id="advanced_search" onClick={() => handleClickP()}>
+                  Advanced Search
+                </p>
               </div>
             </div>
 
