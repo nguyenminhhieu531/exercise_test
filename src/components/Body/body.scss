@@ -51,7 +51,7 @@ h2.ppb_title_popular, .ppb_title_trips {
 .portfolio_info_content_best_value{
   position: absolute;
   color: #ffffff;
-  top: 50%;
+  top: 85%;
 }
 
 .portfolio_info_content_best_value h3{
@@ -291,4 +291,20 @@ h2.ppb_title_popular, .ppb_title_trips {
   margin-left: 7px;
   vertical-align: middle;
   font-size: 12px;
+}
+
+.sale{
+  color: #ffffff;
+    top: -7%;
+    right: -5%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #1EC6B6;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
