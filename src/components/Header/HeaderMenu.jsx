@@ -66,6 +66,19 @@ function HeaderMenu() {
               <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
               <div className="portfolio_info_content_best_value">
                 <h3>$3,900</h3>
+                <div className="tour_attribute_wrapper">
+                  <div className="tour_attribute_rating">
+                    <div className="br-theme-fontawesome-stars-o">
+                      <div className="br-widget">
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </li>
@@ -85,6 +98,19 @@ function HeaderMenu() {
               <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
               <div className="portfolio_info_content_best_value">
                 <h3>$4,200</h3>
+                <div className="tour_attribute_wrapper">
+                  <div className="tour_attribute_rating">
+                    <div className="br-theme-fontawesome-stars-o">
+                      <div className="br-widget">
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" className="br-selected" />
+                        <a href="javascript:;" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </li>
