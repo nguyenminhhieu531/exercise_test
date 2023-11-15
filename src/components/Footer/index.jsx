@@ -1,8 +1,9 @@
 import FooterBodyLeft from "./FooterBodyLeft";
 import FooterBodyMid from "./FooterBodyMid";
 import FooterBodyRight from "./FooterBodyRight";
+import FooterBottom from "./FooterBottom";
 import "./footer.scss";
-import FooterProduce from "./footerProduce";
+
 import "./responsive_footer.scss";
 
 function Footer() {
@@ -17,7 +18,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <FooterProduce></FooterProduce>
+      <FooterBottom></FooterBottom>
     </>
   );
 }
