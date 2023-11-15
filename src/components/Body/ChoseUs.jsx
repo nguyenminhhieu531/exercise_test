@@ -2,12 +2,18 @@ import React from "react";
 
 function ChoseUs() {
   const initialData = [
-    { url: "https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Map-Marker-300x300.png" },
+    {
+      url: "https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Map-Marker-300x300.png",
+      title: "Handpicked Hotels",
+    },
+
     {
       url: "https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Worldwide-Location-300x300.png",
+      title: "World Class Service",
     },
     {
       url: "https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/Hot-Air-Balloon-300x300.png",
+      title: "Best Price Guarantee",
     },
   ];
 
@@ -25,7 +31,7 @@ function ChoseUs() {
           </p>
           <h4 className="p1">
             <span className="s1">
-              <b>Handpicked Hotels</b>
+              <b>{item.title}</b>
             </span>
           </h4>
           <p className="desc">
