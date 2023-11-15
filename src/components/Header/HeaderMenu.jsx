@@ -66,6 +66,7 @@ function HeaderMenu() {
               <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
               <div className="portfolio_info_content_best_value">
                 <h3>$3,900</h3>
+                <h5 className="menu_h5">Swiss Alps Trip</h5>
                 <div className="tour_attribute_wrapper">
                   <div className="tour_attribute_rating">
                     <div className="br-theme-fontawesome-stars-o">
@@ -98,6 +99,7 @@ function HeaderMenu() {
               <a className="tour_image" href="https://themes.themegoods.com/grandtour/demo/destination/tokyo/" />
               <div className="portfolio_info_content_best_value">
                 <h3>$4,200</h3>
+                <h5 className="menu_h5">5 Lake of Fuji San</h5>
                 <div className="tour_attribute_wrapper">
                   <div className="tour_attribute_rating">
                     <div className="br-theme-fontawesome-stars-o">
