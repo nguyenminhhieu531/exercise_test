@@ -9,15 +9,17 @@ function Header() {
     <div id="header">
       <div className="container">
         <div className="row">
-          <div className="col-md-2 col-xs-3">
-            <HeaderLogo></HeaderLogo>
+          <div className="navbar_wrapper">
+            <div className="col-md-2 col-xs-3">
+              <HeaderLogo></HeaderLogo>
+            </div>
+            <div className="col-md-10 col-xs-9">
+              <HeaderNav></HeaderNav>
+            </div>
           </div>
-          <div className="col-md-10 col-xs-9">
-            <HeaderNav></HeaderNav>
+          <div className="row">
+            <HeaderBody></HeaderBody>
           </div>
-        </div>
-        <div className="row">
-          <HeaderBody></HeaderBody>
         </div>
       </div>
     </div>

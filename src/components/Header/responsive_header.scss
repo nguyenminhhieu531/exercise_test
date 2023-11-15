@@ -38,4 +38,10 @@
     margin-left: 8px; 
     margin-right: 8px;
   }
+
+  .navbar_wrapper{
+    position: fixed;
+    background: #b5adad;
+    z-index: 10000;
+  }
 }
