@@ -22,7 +22,12 @@ ul li{
   list-style: none;
 }
 
+.fa-solid.fa-mobile-screen, .fa-solid.fa-location-dot, .fa-solid.fa-stopwatch{
+  margin-right: 10px;
+}
+
 #grandtour_flickr-7 img{
+  margin: 3px;
   width: 100%;
   height: auto;
   border-radius: 5px;
