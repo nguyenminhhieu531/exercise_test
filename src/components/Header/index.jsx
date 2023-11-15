@@ -8,16 +8,15 @@ function Header() {
   return (
     <div id="header">
       <div className="container">
-        <div className="navbar_wrapper">
-          <div className="row">
-            <div className="col-md-2 col-xs-3">
-              <HeaderLogo></HeaderLogo>
-            </div>
-            <div className="col-md-10 col-xs-9">
-              <HeaderNav></HeaderNav>
-            </div>
+        <div className="row navbar_wrapper">
+          <div className="col-md-2 col-xs-3">
+            <HeaderLogo></HeaderLogo>
+          </div>
+          <div className="col-md-10 col-xs-9">
+            <HeaderNav></HeaderNav>
           </div>
         </div>
+        <div className="navbar_wrapper"></div>
         <HeaderBody></HeaderBody>
       </div>
     </div>
