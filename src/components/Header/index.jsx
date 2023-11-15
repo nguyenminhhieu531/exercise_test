@@ -8,8 +8,8 @@ function Header() {
   return (
     <div id="header">
       <div className="container">
-        <div className="row">
-          <div className="navbar_wrapper">
+        <div className="navbar_wrapper">
+          <div className="row">
             <div className="col-md-2 col-xs-3">
               <HeaderLogo></HeaderLogo>
             </div>
@@ -17,10 +17,8 @@ function Header() {
               <HeaderNav></HeaderNav>
             </div>
           </div>
-          <div className="row">
-            <HeaderBody></HeaderBody>
-          </div>
         </div>
+        <HeaderBody></HeaderBody>
       </div>
     </div>
   );
