@@ -97,10 +97,6 @@ function Footer() {
                         data-ll-status="loaded"
                         className="entered lazyloaded"
                       />
-                      <noscript>
-                        &lt;img src="https://live.staticflickr.com/8688/28760131762_e4a64b20c4_q.jpg" alt="Buddha
-                        Sunrise in Borobudur, Magelang, Central Java, Indonesia" width="75" height="75" /&gt;
-                      </noscript>
                     </a>
                   </div>
                   <div className="col-md-4 col-xs-4">
@@ -114,10 +110,6 @@ function Footer() {
                         data-ll-status="loaded"
                         className="entered lazyloaded"
                       />
-                      <noscript>
-                        &lt;img src="https://live.staticflickr.com/8688/28760131762_e4a64b20c4_q.jpg" alt="Buddha
-                        Sunrise in Borobudur, Magelang, Central Java, Indonesia" width="75" height="75" /&gt;
-                      </noscript>
                     </a>
                   </div>
                   <div className="col-md-4 col-xs-4">
@@ -131,10 +123,6 @@ function Footer() {
                         data-ll-status="loaded"
                         className="entered lazyloaded"
                       />
-                      <noscript>
-                        &lt;img src="https://live.staticflickr.com/8688/28760131762_e4a64b20c4_q.jpg" alt="Buddha
-                        Sunrise in Borobudur, Magelang, Central Java, Indonesia" width="75" height="75" /&gt;
-                      </noscript>
                     </a>
                   </div>
                 </div>

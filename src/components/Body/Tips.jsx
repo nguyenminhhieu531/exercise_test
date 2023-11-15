@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tips(props) {
+function Tips() {
   return (
     <div className="container">
       <div className="row">
