@@ -2,9 +2,27 @@ import React from "react";
 
 function BestValue() {
   const initialData = [
-    { value: "$5,000", day: "5 days", title: "French Autumn", desc: "City Tours, Urban" },
-    { value: "$2,500", day: "6 days", title: "Grand Switzerland", desc: "Shopping, Mountain, Snow & Ice" },
-    { value: "$5,000", day: "5 days", title: "Discover Japan", desc: "City Tours, Iconic" },
+    {
+      value: "$5,000",
+      day: "5 days",
+      title: "French Autumn",
+      desc: "City Tours, Urban",
+      url: 'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-211051-700x466.jpeg")',
+    },
+    {
+      value: "$6,000",
+      day: "6 days",
+      title: "Grand Switzerland",
+      desc: "Shopping, Mountain, Snow & Ice",
+      url: 'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-197657-700x466.jpeg")',
+    },
+    {
+      value: "$2,500",
+      day: "5 days",
+      title: "Discover Japan",
+      desc: "City Tours, Iconic",
+      url: 'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-96420-700x466.jpeg")',
+    },
   ];
 
   let showData = initialData.map((item) => {
@@ -18,8 +36,7 @@ function BestValue() {
               borderTopLeftRadius: 8,
               borderTopRightRadius: 8,
               height: 300,
-              backgroundImage:
-                'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-211051-700x466.jpeg")',
+              backgroundImage: item.url,
               backgroundSize: "cover",
             }}
           >

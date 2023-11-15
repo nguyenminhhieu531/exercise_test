@@ -11,7 +11,7 @@ function Popular() {
       title: "Seoul",
     },
     {
-      url: 'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-24484-960x636.jpg")',
+      url: 'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/1600x1200-4-700x466.jpg")',
       title: "Paris",
     },
     {
