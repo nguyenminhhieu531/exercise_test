@@ -242,10 +242,7 @@ function HeaderNav(props) {
           <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
         </div>
         <div className="offcanvas-body">
-          <ul
-            className="navbar-nav justify-content-end flex-grow-1 pe-3"
-            style={{ marginLeft: "8px", marginRight: "8px" }}
-          >
+          <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
@@ -296,7 +293,8 @@ function HeaderNav(props) {
                 style={{
                   position: "relative",
                   borderRadius: 8,
-                  height: 300,
+                  height: 200,
+                  width: "100%",
                   backgroundImage:
                     'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-131729.jpeg")',
                   backgroundSize: "cover",
@@ -314,7 +312,8 @@ function HeaderNav(props) {
                 style={{
                   position: "relative",
                   borderRadius: 8,
-                  height: 300,
+                  height: 200,
+                  width: "100%",
                   backgroundImage:
                     'url("https://themes-themegoods.b-cdn.net/grandtour/demo/wp-content/uploads/2016/12/pexels-photo-225630-700x466.jpeg")',
                   backgroundSize: "cover",
